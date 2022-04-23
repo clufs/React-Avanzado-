@@ -13,6 +13,7 @@ export const Navigation = () => {
     <Suspense fallback={<span>Loading...</span>}>
 
       <BrowserRouter>
+      
         <div className='main-layout'>
           <nav >
             <img src={logo} alt="react-logo" />
